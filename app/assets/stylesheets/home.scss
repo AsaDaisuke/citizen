@@ -1,0 +1,41 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-message{
+  width: 70%;
+  margin:0 auto;
+  color: white;
+  text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+              -1px 1px 0 #000000, 1px -1px 0 #000000,
+              0px 1px 0 #000000,  0-1px 0 #000000,
+              -1px 0 0 #000000, 1px 0 0 #000000;
+  padding: 20px;
+  background-color: rgba(128,128,128,0.7);
+  border-radius: 30px;
+  font-size: 18px;
+}
+.top-wrapper{
+  padding: 100px 0 100px 0;
+  text-align: center;
+  background-image: url(https://www.mapa.jp/imagedata/article/1144_review_0.jpg);
+  background-size: cover;
+}
+.top-wrapper h1{
+  color: white;
+  font-size: 50px;
+  text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+              -1px 1px 0 #000000, 1px -1px 0 #000000,
+              0px 1px 0 #000000,  0-1px 0 #000000,
+              -1px 0 0 #000000, 1px 0 0 #000000;
+}
+.message-wrapper h1{
+  color: black;
+  font-size: 70px;
+  text-align: center;
+}
+.infomation {
+  padding: 0px 30px;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: 0 2px 6px #c1ced7;
+}

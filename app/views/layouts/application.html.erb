@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>シチズンスケートリンクの存続を願う会</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <h1>シチズンスケートリンクの存続を願う会</h1>
+        </div>
+        <div class="header-right">
+          <h2>アクセスカウンター</h2>
+          <div class="access_counter">
+            <table border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td align="center" class="counter">
+                  <img src="http://www.rays-counter.com/d452_f6_001/5e412c346ea97/" alt="アクセスカウンター" border="0">
+                </td>
+              </tr>
+            </table>
+          </div>
+
+        </div>
+      </div>
+    </header>
+    <%= yield %>
+    <footer>
+
+    </footer>
+  </body>
+</html>
