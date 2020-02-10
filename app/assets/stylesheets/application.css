@@ -46,6 +46,7 @@
 .header-right h2{
   font-size: 20px;
   line-height: 0px;
+  padding-right: 40px;
 }
 .counter img{
   height: 30px;
