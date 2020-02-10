@@ -13,6 +13,9 @@
  *= require_tree .
  *= require_self
  */
+ body {
+   font-family: "ヒラギノ角ゴ Pro W3";
+ }
  header {
    height: 65px;
    width: 100%;
@@ -25,7 +28,7 @@
    z-index: 10;
  }
  .container {
-   width: 1170px;
+   width: 100%;
    padding: 0 15px;
    margin: 0 auto;
  }
@@ -57,4 +60,34 @@ footer{
 footer h4{
   color: white;
   padding-top: 20px;
+}
+
+/*スマホ向けcss*/
+
+@media (max-width: 1000px) {
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(254, 249, 251, 0.8);
+    /* positionプロパティをfixedに、topを0に指定してください */
+    position: fixed;
+    top:0;
+
+    /* z-indexを10に指定してください */
+    z-index: 10;
+  }
+  .header-left h1{
+    color: black;
+    line-height: 20px;
+    font-size: 40px;
+  }
+  .header-right h2{
+    font-size: 20px;
+    line-height: 0px;
+    padding-right: 40px;
+  }
+  footer h4{
+    color: white;
+    font-size: 30px;
+  }
 }

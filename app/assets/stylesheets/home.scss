@@ -7,7 +7,7 @@
   color: white;
   text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
               -1px 1px 0 #000000, 1px -1px 0 #000000,
-              0px 1px 0 #000000,  0-1px 0 #000000,
+              0px 1px 0 #000000,  0 -1px 0 #000000,
               -1px 0 0 #000000, 1px 0 0 #000000;
   padding: 20px;
   background-color: rgba(128,128,128,0.7);
@@ -25,7 +25,7 @@
   font-size: 50px;
   text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
               -1px 1px 0 #000000, 1px -1px 0 #000000,
-              0px 1px 0 #000000,  0-1px 0 #000000,
+              0px 1px 0 #000000,  0 -1px 0 #000000,
               -1px 0 0 #000000, 1px 0 0 #000000;
 }
 .message-wrapper h1{
@@ -38,4 +38,37 @@
   background-color: white;
   overflow: hidden;
   box-shadow: 0 2px 6px #c1ced7;
+}
+
+/*スマホ向けcss*/
+
+@media (max-width: 1000px) {
+  .top-wrapper h1{
+    color: white;
+    font-size: 50px;
+    text-shadow:2px 2px 0 #000000, -2px -2px 0 #000000,
+                -2px 2px 0 #000000, 2px -2px 0 #000000,
+                0px 2px 0 #000000,  0 -2px 0 #000000,
+                -2px 0 0 #000000, 2px 0 0 #000000;
+  }
+  .main-message{
+    width: 90%;
+    margin:0 auto;
+    color: white;
+    text-shadow:3px 3px 0 #000000, -3px -3px 0 #000000,
+                -3px 3px 0 #000000, 3px -3px 0 #000000,
+                0px 3px 0 #000000,  0 -3px 0 #000000,
+                -3px 0 0 #000000, 3px 0 0 #000000;
+    padding: 20px;
+    background-color: rgba(128,128,128,0.7);
+    border-radius: 30px;
+    font-size: 25px;
+  }
+  .infomation {
+    padding: 0px 30px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 6px #c1ced7;
+    font-size: 40px;
+  }
 }
